@@ -1,0 +1,62 @@
+{
+  "name": "tty-loader",
+  "version": "1.0.1",
+  "description": "A loading bar utility.",
+  "main": "loader.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "loader",
+    "ansi"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "stream-intercept": "^1.0.1-0"
+  },
+  "author": "ValentinHacker <alternativexxxy@gmail.com> (https://github.com/ValentinHacker)",
+  "contributors": [],
+  "files": [
+    "*"
+  ],
+  "bin": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinHacker/Loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ValentinHacker/Loader/issues",
+    "email": "alternativexxxy@gmail.com"
+  },
+  "homepage": "https://github.com/ValentinHacker/Loader",
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "config": {
+    "PORT": 8080
+  },
+  "engines": {
+    "node": ">=7.0",
+    "npm": "~3.10"
+  },
+  "os": [
+    "linux",
+    "android"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "directories": {
+    "man": "./man",
+    "doc": "./doc",
+    "example": "./example",
+    "test": "./test",
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
